@@ -95,8 +95,8 @@ namespace NarabeDataGenerator
             toolStripComboBoxType.Items.Add("問いリストAES32");
             toolStripComboBoxType.SelectedIndex = int.Parse(cbType.ToString());
 
-            toolStripComboBoxPass.Items.Add("EkiNarabe2");
-            toolStripComboBoxPass.Items.Add("Narabe");
+            toolStripComboBoxPass.Items.Add("");
+            toolStripComboBoxPass.Items.Add("");
             toolStripComboBoxPass.SelectedIndex = int.Parse(cbPass.ToString());
 
             toolStripComboBoxFile.Items.Add("updateSchedule.json");
