@@ -32,22 +32,23 @@ using System.Runtime.InteropServices;
 // すべての値を指定するか、次を使用してビルド番号とリビジョン番号を既定に設定できます
 // 既定値にすることができます:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.1")]
-[assembly: AssemblyFileVersion("1.0.0.1")]
+[assembly: AssemblyVersion("1.0.0.2")]
+[assembly: AssemblyFileVersion("1.0.0.2")]
 //
 //
 //ver.1.0.0.0
-//  2022/06/03
+//  20220603
 //  初版
 //
 //ver.1.0.0.1
-//  2022/06/15
+//  20220615
 //  スペースのみの項目がエラーとなるバグを修正
 //  1文字の半角スペースまたは1文字の全角スペースの場合はそのままとする
 //  
-//
-//
-//
+//ver.1.0.0.2
+//  20220907
+//  駅word追加
+//  取り敢えず、aesのキー以外は駅並べと同じ
 //
 //
 //

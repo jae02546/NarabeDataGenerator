@@ -85,6 +85,7 @@ namespace NarabeDataGenerator
 
             toolStripComboBoxApp.Items.Add("駅並べ2");
             toolStripComboBoxApp.Items.Add("並べぇ");
+            toolStripComboBoxApp.Items.Add("駅word");
             toolStripComboBoxApp.SelectedIndex = int.Parse(cbApp.ToString());
 
             toolStripComboBoxType.Items.Add("更新スケジュール");
@@ -97,6 +98,7 @@ namespace NarabeDataGenerator
 
             toolStripComboBoxPass.Items.Add("EkiNarabe2");
             toolStripComboBoxPass.Items.Add("Narabe");
+            toolStripComboBoxPass.Items.Add("EkiWord");
             toolStripComboBoxPass.SelectedIndex = int.Parse(cbPass.ToString());
 
             toolStripComboBoxFile.Items.Add("updateSchedule.json");
@@ -253,6 +255,7 @@ namespace NarabeDataGenerator
             switch (toolStripComboBoxApp.SelectedIndex)
             {
                 case 0: //駅並べ2
+                case 2: //駅word
                     switch (toolStripComboBoxType.SelectedIndex)
                     {
                         case 0: //更新スケジュール
