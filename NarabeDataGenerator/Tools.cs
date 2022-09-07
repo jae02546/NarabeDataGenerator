@@ -1945,12 +1945,9 @@ namespace NarabeDataGenerator
                     //12文字のpassをbase64して16文字にする
                     //iv大文字、key小文字
                     //例 :
-                    //iv :EKINARABE002
-                    //key:ekinarabe002
                     EncryptDecrypt ed = new EncryptDecrypt();
                     List<string> b64List = new List<string>();
 
-                    //string pass = "Ekinarabe002";
                     string pass = (aesPass + new string('0', 12)).Substring(0, 12);
                     //初期化ベクトル 16文字 1byte=8bit 8bit*16=128bit
                     string iv = ed.ToBase64(pass.ToUpper());
